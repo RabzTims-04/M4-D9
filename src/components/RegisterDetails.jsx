@@ -30,38 +30,38 @@ class RegisterDetails extends Component {
                             <tbody>
 
                                 <tr>
-                                <td className="text-danger font-weight-bold">Name:</td>
-                                <td className="text-white">{this.props.name}</td>
+                                    <td className="text-danger font-weight-bold">Name:</td>
+                                    <td className="text-white">{this.props.name}</td>
                                 </tr>
 
                                 <tr>
-                                <td className="text-danger font-weight-bold">Surname:</td>
-                                <td className="text-white">{this.props.surname}</td>
+                                    <td className="text-danger font-weight-bold">Surname:</td>
+                                    <td className="text-white">{this.props.surname}</td>
                                 </tr>
 
                                 <tr>
-                                <td className="text-danger font-weight-bold">Email:</td>
-                                <td className="text-white">{this.props.email}</td>
+                                    <td className="text-danger font-weight-bold">Email:</td>
+                                    <td className="text-white">{this.props.email}</td>
                                 </tr>
 
                                 <tr>
-                                <td className="text-danger font-weight-bold">Age:</td>
-                                <td className="text-white">{this.ageFunc(this.props.age)}</td>
+                                    <td className="text-danger font-weight-bold">Age:</td>
+                                    <td className="text-white">{this.ageFunc(this.props.age)}</td>
                                 </tr>
 
                                 <tr>
-                                <td className="text-danger font-weight-bold">Address:</td>
-                                <td className="text-white">{this.props.address}</td>
+                                    <td className="text-danger font-weight-bold">Address:</td>
+                                    <td className="text-white">{this.props.address}</td>
                                 </tr>
 
                                 <tr>
-                                <td className="text-danger font-weight-bold">City:</td>
-                                <td className="text-white">{this.props.city}</td>
+                                    <td className="text-danger font-weight-bold">City:</td>
+                                    <td className="text-white">{this.props.city}</td>
                                 </tr>
 
                                 <tr>
-                                <td className="text-danger font-weight-bold">Postal-Code:</td>
-                                <td className="text-white">{this.props.postal}</td>
+                                    <td className="text-danger font-weight-bold">Postal-Code:</td>
+                                    <td className="text-white">{this.props.postal}</td>
                                 </tr>
 
                             </tbody>
